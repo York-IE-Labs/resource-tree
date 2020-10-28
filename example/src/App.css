@@ -19,9 +19,9 @@ td {
   padding-top: 25px;
   justify-content: center;
   margin: auto;
-  display: grid;
   gap: 5px;
-  min-width: 100vh;
+  max-width: 800px;
+  padding: 15px;
 }
 
 pre {
