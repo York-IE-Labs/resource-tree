@@ -7,7 +7,7 @@ import {
   ChevronRight
 } from 'react-bootstrap-icons'
 
-const ResourceTree = ({ tree, setTree, className, root = 'root' }) => {
+const ResourceTree = ({ tree, setTree, className}) => {
   const [depth, setDepth] = useState([])
 
   const findNode = (location, node, path) => {
