@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save resource-tree
+yarn add @york-ie-labs/resource-tree
 ```
 
 ## Usage
@@ -15,12 +15,11 @@ npm install --save resource-tree
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'resource-tree'
-import 'resource-tree/dist/index.css'
+import { ResourceTree } from 'resource-tree'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <ResourceTree />
   }
 }
 ```
