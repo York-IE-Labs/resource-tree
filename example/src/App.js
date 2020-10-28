@@ -87,7 +87,7 @@ function App() {
       <br />
       <div className='tree-wrapper'>
         <DndProvider manager={manager.current.dragDropManager}>
-          <ResourceTree root='home' tree={tree} setTree={setTree} />
+          <ResourceTree tree={tree} setTree={setTree} />
         </DndProvider>
       </div>
       <br />

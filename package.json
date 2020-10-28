@@ -1,5 +1,5 @@
 {
-  "name": "resource-tree",
+  "name": "@york-ie-labs/resource-tree",
   "version": "1.0.0",
   "description": "Tree structure visualized as a table. Click directories to move down into the tree, drag and drop to move directories and resources.",
   "author": "anothrNick",
